@@ -77,18 +77,17 @@ ALLOWED_HOSTS = ['*']
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'restapi',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST': '192.168.3.11',
+        #'HOST': '192.168.3.11',
+        'HOST': 'postgres',
         'PORT': '5432',
     }
 }
-'''
 
 
 # Password validation
