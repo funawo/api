@@ -83,8 +83,8 @@ DATABASES = {
         'NAME': 'restapi',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST': '192.168.3.11',
-        #'HOST': 'postgres',
+        #'HOST': '192.168.3.11',
+        'HOST': 'postgres',
         'PORT': '5432',
     }
 }
